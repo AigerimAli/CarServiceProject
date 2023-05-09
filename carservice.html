@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Service Application</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Car Service Application</h1>
+
+    <form>
+      <label for="photo">Photo:</label>
+      <input type="file" id="photo" name="photo"><br>
+
+      <label for="pictures">Pictures:</label>
+      <input type="file" id="pictures" name="pictures" multiple><br>
+
+      <label for="data">Other Data:</label>
+      <textarea id="data" name="data"></textarea><br>
+
+      <label for="age">Client's Age:</label>
+      <input type="text" id="age" name="age"><br>
+
+      <label for="orders">Orders Amount:</label>
+      <input type="text" id="orders" name="orders"><br>
+
+      <label for="search">Search by Name:</label>
+      <input type="text" id="search" name="search"><br>
+
+      <label for="sort">Sort Data:</label>
+      <select id="sort" name="sort">
+        <option value="name">Name</option>
+        <option value="address">Address</option>
+        <option value="phone">Phone</option>
+      </select><br>
+
+      <label for="filter">Filter Data:</label>
+      <input type="checkbox" id="filter" name="filter"><br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>123 Main St</td>
+          <td>555-1234</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>456 Elm St</td>
+          <td>555-5678</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
